@@ -57,10 +57,10 @@ const Header = async () => {
             </a>
           </SignedIn>
           <SignedOut>
-            {/* <SignInButton redirectUrl="/dashboard">
+            <SignInButton redirectUrl="/dashboard">
               <Button variant="outline">Login</Button>
-            </SignInButton> */}
-             <SignIn redirectUrl="/dashboard" />
+            </SignInButton>
+             {/* <SignIn redirectUrl="/dashboard" /> */}
           </SignedOut>
           <SignedIn>
             <UserButton
